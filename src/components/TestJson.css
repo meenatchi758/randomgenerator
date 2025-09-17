@@ -1,0 +1,44 @@
+.quote-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.quote-btn {
+  background: linear-gradient(90deg, #66a6ff, #89f7fe);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+.quote-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #3f87a6, #ebf8e1);
+  color: #000;
+}
+
+.quote-card {
+  margin-top: 20px;
+  padding: 20px;
+  border-left: 4px solid #66a6ff;
+  background: #f9f9f9;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 500px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 20px;
+  color: #333;
+}
+
+.quote-author {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #555;
+}
